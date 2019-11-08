@@ -1,0 +1,24 @@
+dist: xenial 
+
+language: python
+
+jobs:
+  include:
+    - python: 3.5
+    - python: 3.6
+#    - python: &pypy3 pypy3.5-6.0
+before_install:
+    - sudo apt-get install -y libblas-dev liblapack-dev gfortran
+
+    
+notifications:
+  email:
+    recipients:
+      - andetravis@gmail.com
+    on_success: always 
+    on_failure: always 
+    on_change: always 
+
+
+script:
+  - python -m pytest tests/*
