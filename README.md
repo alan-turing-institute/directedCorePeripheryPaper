@@ -1,7 +1,6 @@
 # directedCorePeripheryPaper
 
 [![Build Status](https://travis-ci.com/alan-turing-institute/directedCorePeripheryPaper.svg?token=pw8N1gt2RLaL63aPt8t3&branch=master)](https://travis-ci.com/alan-turing-institute/directedCorePeripheryPaper)
-
 This is the code for the paper "Core–Periphery Structure in Directed Networks"
 
 It allows a replication of the results in the paper. 
